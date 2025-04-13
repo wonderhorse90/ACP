@@ -2,5 +2,5 @@
 
 # 113021218 Joanes Don Bosco Bhramantyo
 # Zefanya
-# Giandra
+# 113021219 Giandra Raihan Nayottama
 # Luthfi
