@@ -1,7 +1,6 @@
 import scrapy
 from urllib.parse import urljoin
 
-
 class ReposSpider(scrapy.Spider):
     name = "repos"
     start_urls = ['https://github.com/wonderhorse90?tab=repositories']
