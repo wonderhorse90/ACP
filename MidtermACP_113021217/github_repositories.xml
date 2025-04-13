@@ -1,0 +1,93 @@
+<items>
+    <item>
+        <url>https://github.com/Zefanya211004/PBKKGolang-booking-app</url>
+        <last_updated>2024-11-02T16:55:37Z</last_updated>
+        <about>PBKKGolang-booking-app</about>
+        <languages>
+            <value>Go</value>
+            <value>100.0%</value>
+        </languages>
+        <commits>4 Commits</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/gowiki</url>
+        <last_updated>2024-11-06T09:45:51Z</last_updated>
+        <about>gowiki</about>
+        <languages>
+            <value>Go</value>
+            <value>86.4%</value>
+            <value>HTML</value>
+            <value>13.6%</value>
+        </languages>
+        <commits>3 Commits</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/data-access</url>
+        <last_updated>2024-11-12T09:48:36Z</last_updated>
+        <about>data-access</about>
+        <languages>
+            <value>Go</value>
+            <value>100.0%</value>
+        </languages>
+        <commits>1 Commit</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/WebProQuiz1</url>
+        <last_updated>2023-09-28T16:22:23Z</last_updated>
+        <about>WebProQuiz1</about>
+        <languages>None</languages>
+        <commits>None</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/Zefanya211004.github.io</url>
+        <last_updated>2023-09-28T16:26:39Z</last_updated>
+        <about>Zefanya211004.github.io</about>
+        <languages>
+            <value>HTML</value>
+            <value>72.9%</value>
+            <value>CSS</value>
+            <value>24.4%</value>
+            <value>JavaScript</value>
+            <value>2.7%</value>
+        </languages>
+        <commits>2 Commits</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/Midterm-Exam</url>
+        <last_updated>2023-10-25T16:58:10Z</last_updated>
+        <about>Midterm-Exam</about>
+        <languages>None</languages>
+        <commits>1 Commit</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/WebProQuis2</url>
+        <last_updated>2023-11-23T11:52:43Z</last_updated>
+        <about>WebProQuis2</about>
+        <languages>None</languages>
+        <commits>1 Commit</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/laravel11</url>
+        <last_updated>2024-10-15T10:13:35Z</last_updated>
+        <about>laravel11</about>
+        <languages>
+            <value>PHP</value>
+            <value>52.8%</value>
+            <value>Blade</value>
+            <value>46.4%</value>
+        </languages>
+        <commits>10 Commits</commits>
+    </item>
+    <item>
+        <url>https://github.com/Zefanya211004/laravelcrud</url>
+        <last_updated>2024-11-01T13:05:00Z</last_updated>
+        <about>PBKK CRUD Project</about>
+        <languages>
+            <value>PHP</value>
+            <value>58.7%</value>
+            <value>Blade</value>
+            <value>40.8%</value>
+        </languages>
+        <commits>7 Commits</commits>
+    </item>
+</items>
