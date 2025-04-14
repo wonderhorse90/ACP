@@ -63,7 +63,7 @@ class GithubSpider(scrapy.Spider):
             if commits_text:
                 item['commits'] = commits_text.strip().replace(',', '')
             else:
-                commits_text = response.css('strong[data-test-id="commits"]::text').get()
+                commits_text = response.css('span.fgColor-default::text').get()
                 item['commits'] = commits_text.strip().replace(',', '') if commits_text else None
         
         yield item
