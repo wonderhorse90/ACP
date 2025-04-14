@@ -28,8 +28,7 @@ class GithubSpider(scrapy.Spider):
             }
             
             repo_name = repo.css('a[itemprop="name codeRepository"]::text').get()
-            if repo_name:
-                repo_name = repo_name.strip()
+            item['repo_name'] = repo_name.strip() if repo_name else None
             
             about = repo.css('p[itemprop="description"]::text').get()
             item['about'] = about.strip() if about else repo_name
