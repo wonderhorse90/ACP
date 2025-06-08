@@ -1,0 +1,230 @@
+.container-1 {
+  display: flex;
+  height: 100vh;
+}
+
+.box-1-text {
+  padding-top: 80px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box-1-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.box-1-image {
+  display: flex;
+  width: 50%;
+  background-color: #A8E0B1;
+  background-size: cover;
+}
+
+.box-1-image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  opacity: 40%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 240px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #66cc99;
+  box-shadow: 0 0 5px rgba(102, 204, 153, 0.5);
+}
+
+.search-button {
+  padding: 10px 16px;
+  background-color: #66cc99;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #57b88a;
+}
+
+.how-it-works {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  padding-left: 15%;
+}
+
+.bottom {
+  padding-top: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.selected-songs-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 10px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selected-songs-box h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.selected-songs-box ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.selected-songs-box li {
+  font-size: 14px;
+  color: #444;
+}
+
+.picked-tracks {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.picked-tracks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.picked-tracks li {
+  margin-bottom: 6px;
+  background-color: #e7ffe7;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.clear-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #ffcccc;
+  color: #b30000;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.clear-btn:hover,
+.remove-btn:hover {
+  opacity: 0.8;
+}
+
+/* 🔍 Found Songs Section */
+.found-songs {
+  margin-top: 30px;
+  padding-left: 10%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.found-songs ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.found-songs li {
+  background-color: #f1f1f1;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.found-songs a {
+  text-decoration: none;
+  color: #008000;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* 🎵 Recommendations Section */
+.recommendations {
+  margin-top: 40px;
+  padding: 0 10%;
+  font-family: "Poppins", sans-serif;
+}
+
+.recommendations h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.recommendations ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recommendations li {
+  background-color: #e6f7ff;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* 📱 Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .container-1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box-1-image {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .picked-tracks,
+  .found-songs,
+  .recommendations {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
